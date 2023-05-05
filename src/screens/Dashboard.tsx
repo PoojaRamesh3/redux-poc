@@ -28,10 +28,10 @@ const Dashboard = () => {
   return (
     <>
       <div>
-        <Card />
+        {/* <Card />
         <div className="flex">
           <Table apiData={data} />
-        </div>
+        </div> */}
       </div>
     </>
   );

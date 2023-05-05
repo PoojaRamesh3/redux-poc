@@ -6,13 +6,13 @@ const Layout = () => {
   return (
     <div className="bg-slate-100 relative min-h-screen">
       <div
-        className="flex justify-between m-5 bg-white rounded-r-[50px] rounded-s-[50px]"
+        className="flex justify-between m-5 bg-white rounded-r-[50px] rounded-s-[50px] md:justify-center"
         style={{ height: "-webkit-fill-available" }}
       >
         <div className="w-1/6 hidden md:block min-h-screen">
           <SideBar />
         </div>
-        <div className="w-5/6">
+        <div className="w-5/6 md:w-full">
           <Header />
           <Outlet />
         </div>
