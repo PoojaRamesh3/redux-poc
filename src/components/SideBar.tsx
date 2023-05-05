@@ -11,10 +11,6 @@ import { FaUsers } from "react-icons/fa";
 import { RiLogoutCircleFill } from "react-icons/ri";
 
 const SideBar = () => {
-  // const [click, setClick] = useState(false);
-
-  // const handleClick = () => setClick(!click);
-  // const Close = () => setClick(false);
   const logo = require("../assets/logo.png");
 
   const sideBarLists = [
