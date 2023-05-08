@@ -16,7 +16,7 @@ const Dashboard = () => {
   const [data, setData] = useState<info[]>([]);
 
   const getData = () => {
-    axios.get(baseURL).then((response) => {
+    axios.get(baseURL).then((response: any) => {
       setData(response.data);
     });
   };
